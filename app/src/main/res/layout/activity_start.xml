@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+        
+        <TextView
+            android:id="@+id/local_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:paddingStart="16dp"
+            android:text="@string/local"
+            android:paddingTop="100dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/black"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/local_name_edit"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/local_text"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/start_button"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/local_name_edit"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="100dp"
+            android:gravity="center"
+            android:hint="@string/empezar" />
+
+        <TextView
+            android:id="@+id/visitor_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/start_button"
+            android:gravity="center"
+            android:text="@string/visitante"
+            android:textColor="@color/black"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/visitor_name_edit"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/visitor_text"
+            android:gravity="center"
+            />
+    </RelativeLayout>
+</layout>

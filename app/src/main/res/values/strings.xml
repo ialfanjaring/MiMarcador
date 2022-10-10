@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MiMarcador</string>
+    <string name="visitante">Visitante</string>
+    <string name="equipo_visitante">Equipo Visitante</string>
+    <string name="equipo_local">Equipo Local</string>
+    <string name="local">Local</string>
+    <string name="empezar">Empezar</string>
+</resources>
